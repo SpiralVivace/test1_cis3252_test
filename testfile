@@ -1,0 +1,7 @@
+echo "# test1_cis3252_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SpiralVivace/test1_cis3252_test.git
+git push -u origin main
